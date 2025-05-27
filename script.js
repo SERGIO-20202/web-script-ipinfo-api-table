@@ -1,6 +1,6 @@
 async function getIPInfo() {
   try {
-    const response = await fetch("https://ipinfo.io/json?token=46ec0b33569398");
+    const response = await fetch("https://ipinfo.io/json?token=46ec0b33569398"); // coloque seu token aqui
     const data = await response.json();
 
     const tableBody = document.querySelector("#ipTable tbody");
